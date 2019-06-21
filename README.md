@@ -1,4 +1,4 @@
-# OmniStackWeek Backend-java
+# OmniStackWeek Backend-Java
 
 # Backend Java
 
