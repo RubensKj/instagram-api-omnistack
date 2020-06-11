@@ -1,4 +1,4 @@
-package br.com.rocketseatbootcamp.services;
+package br.com.rocketseatbootcamp.service.implementation;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -7,8 +7,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
-import br.com.rocketseatbootcamp.Exception.FileStorageException;
-import br.com.rocketseatbootcamp.Exception.MyFileNotFoundException;
+import br.com.rocketseatbootcamp.exception.FileStorageException;
+import br.com.rocketseatbootcamp.exception.MyFileNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import br.com.rocketseatbootcamp.Property.FileStorageProperties;
+import br.com.rocketseatbootcamp.property.FileStorageProperties;
 
 @Service
 public class FileStorageService {

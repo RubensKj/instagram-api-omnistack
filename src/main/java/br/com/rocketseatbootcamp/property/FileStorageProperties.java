@@ -1,4 +1,4 @@
-package br.com.rocketseatbootcamp.Property;
+package br.com.rocketseatbootcamp.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

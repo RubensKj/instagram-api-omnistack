@@ -1,4 +1,4 @@
-package br.com.rocketseatbootcamp.Exception;
+package br.com.rocketseatbootcamp.exception;
 
 public class FileStorageException extends RuntimeException {
     /**
